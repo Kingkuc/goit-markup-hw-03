@@ -1,0 +1,236 @@
+:root {
+  --brand-text-color: #212121;
+  --brand-accent-color: #2196f3;
+}
+body {
+  font-family: "Roboto";
+  color: var(--brand-text-color);
+  background: #ffffff;
+}
+.logo {
+  font-family: "Raleway";
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-accent {
+  color: var(--brand-accent-color);
+}
+.nav-links {
+  list-style: none;
+
+  width: 53px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+.nav-links .link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--brand-text-color);
+  cursor: pointer;
+}
+.nav-links .link:hover,
+.nav-links .link:focus {
+  color: var(--brand-accent-color);
+}
+.contact-links {
+  display: inline-flex;
+  list-style: none;
+}
+.contact-links .contact-link {
+  text-decoration: none;
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+.contact-links .contact-link:hover,
+.contact-links .contact-link:focus {
+  color: var(--brand-accent-color);
+}
+.section-hero {
+  background: #2f303a;
+}
+.section-hero > h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.section-hero > button {
+  font-weight: 700;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--brand-accent-color);
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.section-hero > button:hover,
+.section-hero > button:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.text-list-1 > ul {
+  list-style: none;
+  display: flex;
+}
+
+.text-list-1-header {
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.text-list-1-paragraf {
+  text-align: justify;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.section-company-offer > h2 {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-company-offer > ul {
+  display: flex;
+  list-style: none;
+}
+
+.section-staff > h2 {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-staff > ul {
+  display: flex;
+  list-style: none;
+}
+
+.section-staff-header {
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-staff-description {
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.footer {
+  background: #2f303a;
+  color: #ffffff;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+.address {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.footer > ul {
+  list-style: none;
+}
+.footer-links {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: inherit;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+.footer-links:hover,
+.footer-links:focus {
+  color: var(--brand-accent-color);
+}
+
+.portfolio-buttons {
+  list-style: none;
+}
+
+.portfolio-buttons-first {
+  font-family: inherit;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--brand-accent-color);
+  border-radius: 4px;
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-button-first:hover,
+.portfolio-butto-first:focus {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-buttons-list {
+  font-family: inherit;
+  color: inherit;
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.portfolio-buttons-list:hover,
+.portfolio-buttons-list:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.portfolio-offer-list {
+  display: inline-flex;
+  list-style: none;
+}
+
+.portfolio-offer-list-header {
+  font-size: 18px;
+  line-height: 2;
+  text-align: left;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-offer-list-text {
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
