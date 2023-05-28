@@ -31,6 +31,8 @@ header {
   justify-content: space-evenly;
   align-items: baseline;
   border-bottom: 1px solid #ececec;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .header-left-side {
