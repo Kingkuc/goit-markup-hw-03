@@ -14,8 +14,8 @@ body {
   color: var(--brand-text-color);
   background: #ffffff;
   display: block;
-  margin: 0 auto;
 }
+
 .cointainer {
   width: 1200px;
   margin: 0 auto;
@@ -142,6 +142,15 @@ header {
 .text-list-1 > ul {
   list-style: none;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 0;
+}
+
+.text-list-1 > li {
+  flex-basis: calc((100% - 90px) / 4);
+  padding: 0;
 }
 
 .text-list-1-header {
@@ -151,6 +160,8 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: left;
+  padding: 0;
+  margin: 0 auto 10px 0;
 }
 
 .text-list-1-paragraf {
@@ -159,17 +170,35 @@ header {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
+  margin: 0;
 }
 .section-company-offer > h2 {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+  margin: 0 auto 50px auto;
+  padding: 0;
 }
 
 .section-company-offer > ul {
   display: flex;
   list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.section-company-offer > img {
+  flex-basis: calc((100% - 60px) / 3);
+  display: block;
+}
+
+.section-staff {
+  background: #f5f4fa;
+  margin: 0 auto;
 }
 
 .section-staff > h2 {
@@ -177,12 +206,31 @@ header {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 .section-staff > ul {
   display: flex;
   list-style: none;
-}
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+  }
+
+  .section-staff > li {
+    flex-basis: ((100% - 120px) / 4);
+    }
+
+.figure {
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+  0px 1px 1px rgba(0, 0, 0, 0.14), 
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  }
 
 .section-staff-header {
   text-align: center;
@@ -190,6 +238,8 @@ header {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+  margin: 0 auto 10px auto;
+  padding: 0;
 }
 
 .section-staff-description {
@@ -197,15 +247,28 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-bottom: 30px;
+}
+
+.photo {
+  display: block;
+  margin: 0 auto 30px auto;
 }
 
 .footer {
   background: #2f303a;
   color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: 252px;
 }
 
 .logo-footer {
   color: #ffffff;
+  display:inline-block;}
+
+.logo-margin {
+  margin-bottom: 20px;
 }
 
 .address {
@@ -213,22 +276,30 @@ header {
   font-style: normal;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  margin-bottom: 9px;
 }
 
 .footer > ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .footer-links {
   text-decoration: none;
   font-size: 14px;
-  line-height: inherit;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   border-radius: 4px;
+  display: block;
 }
 .footer-links:hover,
 .footer-links:focus {
   color: var(--brand-accent-color);
+}
+
+.mail-link-footer {
+  margin-bottom: 9px;
 }
 
 .portfolio-buttons {
