@@ -3,6 +3,7 @@
 *::after {
   box-sizing: border-box;
   padding: 0;
+  margin: 0;
   }
 
 :root {
@@ -67,7 +68,7 @@ border-bottom: 1px solid #ececec;
   gap: 46px;
 }
 
-.nav-links .link {
+.nav-links-link {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -78,8 +79,8 @@ border-bottom: 1px solid #ececec;
   display: block;
 }
 
-.nav-links .link:hover,
-.nav-links .link:focus {
+.nav-links-link:hover,
+.nav-links-link:focus {
   color: var(--brand-accent-color);
 }
 
@@ -92,7 +93,7 @@ align-items: center;
 gap: 50px;
 }
 
-.contact-links .contact-link {
+.contact-link {
   display: block;
   text-decoration: none;
   color: #757575;
@@ -102,8 +103,8 @@ gap: 50px;
   letter-spacing: 0.02em;
   cursor: pointer;
 }
-.contact-links .contact-link:hover,
-.contact-links .contact-link:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--brand-accent-color);
 }
 .section-hero {
