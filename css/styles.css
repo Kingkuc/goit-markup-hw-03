@@ -302,8 +302,8 @@ gap: 50px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   border-radius: 4px;
-  display: block;
-}
+  }
+  
 .footer-links:hover,
 .footer-links:focus {
   color: var(--brand-accent-color);
